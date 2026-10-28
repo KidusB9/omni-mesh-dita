@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-delete-profile">
+  <title>Delete your profile</title>
+  <shortdesc>Remove everything <keyword keyref="product"/> keeps on this phone. This can't be
+    undone.</shortdesc>
+  <taskbody>
+    <steps>
+      <step conkeyref="reuse/open-settings">
+        <cmd/>
+      </step>
+      <step>
+        <cmd>Under <uicontrol>Account</uicontrol>, tap <uicontrol>Delete my profile</uicontrol>.</cmd>
+        <stepresult>The screen lists what is deleted and what other phones keep.</stepresult>
+      </step>
+      <step>
+        <cmd>Type <userinput>DELETE</userinput>, then tap <uicontrol>Delete my profile</uicontrol>.</cmd>
+        <info>To cancel, tap <uicontrol>Keep my profile</uicontrol>.</info>
+      </step>
+    </steps>
+    <result>The app returns to the <wintitle>Welcome</wintitle> screen.</result>
+    <postreq>
+      <note type="important">Deleting the app alone doesn't remove your recovery words; iOS keeps them.
+        Use <uicontrol>Delete my profile</uicontrol> first if you want them gone.</note>
+    </postreq>
+  </taskbody>
+</task>

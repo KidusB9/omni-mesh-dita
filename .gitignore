@@ -1,0 +1,5 @@
+# DITA-OT install (scripts/setup.ps1 downloads it) and build output
+.tools/
+out/
+temp/
+*.log

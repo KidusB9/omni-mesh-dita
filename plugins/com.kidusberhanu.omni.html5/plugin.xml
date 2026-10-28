@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.dita-ot.org/rng/plugin.rnc" type="application/relax-ng-compact-syntax"?>
+<!--
+  OMNI branded HTML5 help site.
+  Extends the stock HTML5 plugin with a stylesheet, a site header and footer,
+  a full navigation tree on every page, and a branded landing page for
+  index.html. Publish with: dita -i <map> -f omni-html5
+-->
+<plugin id="com.kidusberhanu.omni.html5" version="1.0.0">
+  <require plugin="org.dita.html5"/>
+  <transtype name="omni-html5" extends="html5" desc="OMNI branded HTML5 help site"/>
+  <feature extension="ant.import" file="build_omni-html5.xml"/>
+  <feature extension="dita.xsl.html5.cover" file="xsl/landing.xsl"/>
+  <feature extension="dita.conductor.html5.toc.param" file="insertParameters.xml"/>
+</plugin>

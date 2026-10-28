@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Technical edition: the full user guide plus the technical chapter.
+  Only the user-edition subtitle is dropped, so the cover reads correctly.
+-->
+<val>
+  <prop att="audience" val="user" action="exclude"/>
+</val>

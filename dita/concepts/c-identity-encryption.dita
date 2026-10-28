@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-identity-encryption" audience="technical">
+  <title>Identity and encryption</title>
+  <shortdesc>A profile is a key pair that lives on the phone. Cards and content are signed with it,
+    and private messages are sealed to the recipient with libsodium.</shortdesc>
+  <conbody>
+    <section id="identity">
+      <title>Identity</title>
+      <ul>
+        <li>Finishing setup generates 12 BIP39 recovery words. The words derive an Ed25519 key pair,
+          and the user ID is a BLAKE2b hash derived from it.</li>
+        <li>The date of birth is stored only on the phone. Other phones receive the age, or an age
+          band (18 to 24, 25 to 34, 35 to 44, 45+) when <uicontrol>Show my age</uicontrol> is
+          off.</li>
+        <li>The recovery words are kept in the iOS keychain, which survives deleting the app. Only
+          <uicontrol>Delete my profile</uicontrol> removes them.</li>
+      </ul>
+    </section>
+    <section id="crypto">
+      <title>Cryptography</title>
+      <table frame="all" id="crypto-table">
+        <title>What protects each kind of data</title>
+        <tgroup cols="2">
+          <colspec colname="data" colwidth="1*"/>
+          <colspec colname="how" colwidth="2*"/>
+          <thead>
+            <row>
+              <entry>Data</entry>
+              <entry>Protection</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Profile cards, posts, stories</entry>
+              <entry>Signed with Ed25519, so a phone can verify who wrote them.</entry>
+            </row>
+            <row>
+              <entry>Chat messages</entry>
+              <entry>Sealed to the recipient with <codeph>crypto_box_seal</codeph> (X25519 and
+                XSalsa20-Poly1305).</entry>
+            </row>
+            <row>
+              <entry>Notes</entry>
+              <entry>Encrypted with <codeph>crypto_secretbox</codeph> (XSalsa20-Poly1305), then
+                sealed to the recipient.</entry>
+            </row>
+            <row>
+              <entry>Everything in transit</entry>
+              <entry>Multipeer Connectivity link encryption, which the app requires on every
+                session.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </conbody>
+</concept>

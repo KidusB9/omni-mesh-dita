@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-connection-check">
+  <title>Troubleshooting</title>
+  <shortdesc>If you can't see anyone, run <uicontrol>Connection check</uicontrol> to find what needs
+    attention on this phone, then test with a friend.</shortdesc>
+  <taskbody>
+    <context>
+      <note conkeyref="reuse/both-open"/>
+    </context>
+    <steps>
+      <step>
+        <cmd>Open <menucascade><uicontrol>Settings</uicontrol><uicontrol>Help</uicontrol><uicontrol>Connection
+          check</uicontrol></menucascade>.</cmd>
+        <info>You can also tap <uicontrol>Having trouble? Check connection</uicontrol> at the bottom
+          of Nearby.</info>
+      </step>
+      <step>
+        <cmd>Read the result and follow any steps it shows.</cmd>
+        <choicetable relcolwidth="2* 3*">
+          <chhead>
+            <choptionhd>Result</choptionhd>
+            <chdeschd>Meaning</chdeschd>
+          </chhead>
+          <chrow>
+            <choption><msgph>Everything looks good.</msgph></choption>
+            <chdesc>This phone is ready. Test with a friend next.</chdesc>
+          </chrow>
+          <chrow>
+            <choption><msgph>Something needs your attention.</msgph></choption>
+            <chdesc>Fix the items listed on the screen, then run the check again.</chdesc>
+          </chrow>
+          <chrow>
+            <choption><msgph>Nearby cannot work on this phone yet.</msgph></choption>
+            <chdesc>Nearby can't start until the listed problem is fixed.</chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+      <step>
+        <cmd>To check two phones together, open <menucascade><uicontrol>Settings</uicontrol><uicontrol>Help</uicontrol><uicontrol>Test
+          with a friend</uicontrol></menucascade> and follow the steps on both phones.</cmd>
+      </step>
+    </steps>
+    <postreq>Still stuck? Open <menucascade><uicontrol>Settings</uicontrol><uicontrol>Help</uicontrol><uicontrol>Send
+      a problem report</uicontrol></menucascade> to share the app's log. Nothing leaves your phone
+      unless you share it.</postreq>
+  </taskbody>
+</task>

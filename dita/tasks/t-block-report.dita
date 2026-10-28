@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-block-report">
+  <title>Block or report someone</title>
+  <shortdesc>Block someone to stop them from seeing your name or profile on Nearby or saying hi.
+    Report them to tell support; reporting also blocks them.</shortdesc>
+  <taskbody>
+    <context>You can block or report before or after you match. The person isn't told.</context>
+    <steps>
+      <step>
+        <cmd>Tap <uicontrol>…</uicontrol> on the person's card on Nearby, on the
+          <wintitle>Match</wintitle> screen, or in your chat with them.</cmd>
+        <info>You can also touch and hold their card. The hi sheet and a note's options offer
+          <uicontrol>Block</uicontrol> and <uicontrol>Report</uicontrol> too.</info>
+      </step>
+      <step>
+        <cmd>Choose what to do.</cmd>
+        <choicetable relcolwidth="1* 3*">
+          <chhead>
+            <choptionhd>Action</choptionhd>
+            <chdeschd>Then</chdeschd>
+          </chhead>
+          <chrow>
+            <choption><uicontrol>Block</uicontrol></choption>
+            <chdesc>Confirm on <msgph>Block <varname>name</varname>?</msgph>. You then see
+              <msgph>You blocked this person</msgph>.</chdesc>
+          </chrow>
+          <chrow>
+            <choption><uicontrol>Report</uicontrol></choption>
+            <chdesc>Pick a reason: <uicontrol>Fake profile</uicontrol>,
+              <uicontrol>Harassment</uicontrol>, <uicontrol>Inappropriate content</uicontrol>,
+              <uicontrol>Under 18</uicontrol>, or <uicontrol>Something else</uicontrol>. Then tap
+              <uicontrol>Report and block</uicontrol>. An email to support opens so you can send the
+              details.</chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+    </steps>
+    <postreq>
+      <note>Version <keyword keyref="version"/> has no way to unblock someone.</note>
+    </postreq>
+  </taskbody>
+</task>

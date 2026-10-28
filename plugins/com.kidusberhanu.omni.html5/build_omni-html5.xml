@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="com.kidusberhanu.omni.html5">
+  <target name="dita2omni-html5" depends="dita2omni-html5.init, dita2html5"/>
+
+  <target name="dita2omni-html5.init">
+    <property name="omni.html5.dir" location="${dita.plugin.com.kidusberhanu.omni.html5.dir}"/>
+    <!-- Stylesheet copied into the output as css/omni.css -->
+    <property name="args.cssroot" location="${omni.html5.dir}/css"/>
+    <property name="args.css" value="omni.css"/>
+    <property name="args.copycss" value="yes"/>
+    <property name="args.csspath" value="css"/>
+    <!-- Head additions (viewport, theme color), site header, and footer -->
+    <property name="args.hdf" location="${omni.html5.dir}/include/head.xml"/>
+    <property name="args.hdr" location="${omni.html5.dir}/include/header.xml"/>
+    <property name="args.ftr" location="${omni.html5.dir}/include/footer.xml"/>
+    <!-- Whole navigation tree on every page, task section labels, no parent links -->
+    <property name="nav-toc" value="full"/>
+    <property name="args.gen.task.lbl" value="YES"/>
+    <property name="args.rellinks" value="noparent"/>
+    <!-- Turns on the branded index.html in xsl/landing.xsl -->
+    <property name="omni.landing" value="yes"/>
+  </target>
+</project>

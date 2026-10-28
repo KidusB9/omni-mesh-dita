@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<!--
+  Reuse library. Each element with an id is pulled into other topics with
+  conkeyref="reuse/<id>". Edit the wording once here and every topic updates.
+  This topic is resource-only, so it never appears in the output by itself.
+-->
+<task id="reuse">
+  <title>Reusable content</title>
+  <taskbody>
+    <context>
+      <note id="both-open">Phones find each other only while <keyword keyref="product"/> is open on
+        both of them. Locking your phone or closing the app counts as leaving.</note>
+      <note id="no-server" type="tip">Nothing you share in <keyword keyref="product"/> is sent to us
+        or to any server. It goes only between phones that are close together.</note>
+      <p><ph id="fade-rule">What you share with a match fades 30 minutes after you part, unless you
+          both tap <uicontrol>Stay connected</uicontrol>.</ph></p>
+    </context>
+    <steps>
+      <step id="open-settings">
+        <cmd>On the <uicontrol>Me</uicontrol> tab, tap the gear icon to open
+          <wintitle>Settings</wintitle>.</cmd>
+      </step>
+      <step id="open-match">
+        <cmd>Open the <wintitle>Match</wintitle> screen: on the <uicontrol>Nearby</uicontrol> tab,
+          tap <uicontrol>Open</uicontrol> on the person's card.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

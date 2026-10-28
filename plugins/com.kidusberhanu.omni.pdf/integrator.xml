@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="com.kidusberhanu.omni.pdf">
+  <target name="dita2omni-pdf" depends="dita2omni-pdf.init, dita2pdf2"/>
+
+  <target name="dita2omni-pdf.init">
+    <!-- Point PDF2 at this plugin's overrides (catalog, attrs, xsl, vars). -->
+    <property name="customization.dir" location="${dita.plugin.com.kidusberhanu.omni.pdf.dir}/cfg"/>
+    <!-- Chapter openers without a mini table of contents. -->
+    <property name="args.chapter.layout" value="BASIC"/>
+    <!-- Label task sections: "Before you begin", "Procedure", "Results". -->
+    <property name="args.gen.task.lbl" value="YES"/>
+    <property name="args.bookmark.style" value="EXPANDED"/>
+  </target>
+</project>

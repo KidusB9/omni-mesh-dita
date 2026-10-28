@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<!--
+  OMNI user guide. One source, two editions:
+    user edition       filters/user.ditaval       (drops audience="technical")
+    technical edition  filters/technical.ditaval  (adds the technical chapter)
+-->
+<bookmap id="omni-user-guide" xml:lang="en-US">
+  <booktitle>
+    <mainbooktitle>OMNI</mainbooktitle>
+    <booktitlealt audience="user">User Guide</booktitlealt>
+    <booktitlealt audience="technical">User Guide, Technical Edition</booktitlealt>
+  </booktitle>
+
+  <bookmeta>
+    <critdates>
+      <created date="2026-10-27"/>
+      <revised modified="2026-10-27"/>
+    </critdates>
+    <prodinfo>
+      <prodname>OMNI</prodname>
+      <vrmlist><vrm version="2.0"/></vrmlist>
+      <platform>iPhone</platform>
+    </prodinfo>
+    <bookrights>
+      <copyrfirst><year>2026</year></copyrfirst>
+      <bookowner><person>Kidus Berhanu</person></bookowner>
+    </bookrights>
+    <data name="tagline" value="Meet the people around you who share your interests. No internet, no signal, no account."/>
+  </bookmeta>
+
+  <frontmatter>
+    <mapref href="keys.ditamap" processing-role="resource-only"/>
+    <booklists>
+      <toc/>
+    </booklists>
+    <preface href="concepts/about-this-guide.dita"/>
+  </frontmatter>
+
+  <chapter href="concepts/c-what-is-omni.dita">
+    <topicref href="tasks/t-set-up-profile.dita"/>
+    <topicref href="tasks/t-turn-on-nearby.dita"/>
+    <topicref href="tasks/t-restore-profile.dita"/>
+  </chapter>
+
+  <chapter href="concepts/c-nearby.dita">
+    <topicref href="tasks/t-say-hi.dita"/>
+    <topicref href="tasks/t-chat.dita"/>
+    <topicref href="tasks/t-call.dita"/>
+    <topicref href="tasks/t-leave-note.dita"/>
+    <topicref href="tasks/t-find-note.dita"/>
+    <topicref href="tasks/t-stay-connected.dita"/>
+  </chapter>
+
+  <chapter href="concepts/c-what-others-see.dita">
+    <topicref href="concepts/c-fading.dita"/>
+    <topicref href="tasks/t-privacy-controls.dita"/>
+    <topicref href="tasks/t-block-report.dita"/>
+    <topicref href="tasks/t-recovery-words.dita"/>
+    <topicref href="tasks/t-delete-profile.dita"/>
+  </chapter>
+
+  <chapter href="tasks/t-connection-check.dita">
+    <topicref href="reference/r-nearby-messages.dita"/>
+    <topicref href="reference/r-message-status.dita"/>
+    <topicref href="reference/r-permissions.dita"/>
+  </chapter>
+
+  <!-- Technical edition only -->
+  <chapter href="concepts/c-architecture.dita" audience="technical">
+    <topicref href="concepts/c-identity-encryption.dita"/>
+    <topicref href="reference/r-limits.dita"/>
+  </chapter>
+
+  <backmatter>
+    <booklists>
+      <glossarylist>
+        <topicmeta><navtitle>Glossary</navtitle></topicmeta>
+        <topicref href="glossary/g-nearby.dita"/>
+        <topicref href="glossary/g-card.dita"/>
+        <topicref href="glossary/g-say-hi.dita"/>
+        <topicref href="glossary/g-match.dita"/>
+        <topicref href="glossary/g-connection.dita"/>
+        <topicref href="glossary/g-fade.dita"/>
+        <topicref href="glossary/g-note.dita"/>
+        <topicref href="glossary/g-hide-me.dita"/>
+        <topicref href="glossary/g-recovery-words.dita"/>
+        <topicref href="glossary/g-age-band.dita"/>
+      </glossarylist>
+    </booklists>
+  </backmatter>
+
+  <!-- Cross-links generated in both directions from one place -->
+  <reltable>
+    <relheader>
+      <relcolspec type="concept"/>
+      <relcolspec type="task"/>
+      <relcolspec type="reference"/>
+    </relheader>
+    <relrow>
+      <relcell><topicref href="concepts/c-nearby.dita"/></relcell>
+      <relcell><topicref href="tasks/t-turn-on-nearby.dita"/><topicref href="tasks/t-say-hi.dita"/></relcell>
+      <relcell><topicref href="reference/r-nearby-messages.dita"/></relcell>
+    </relrow>
+    <relrow>
+      <relcell><topicref href="concepts/c-what-others-see.dita"/></relcell>
+      <relcell><topicref href="tasks/t-turn-on-nearby.dita"/><topicref href="tasks/t-privacy-controls.dita"/></relcell>
+      <relcell><topicref href="reference/r-permissions.dita"/></relcell>
+    </relrow>
+    <relrow>
+      <relcell><topicref href="concepts/c-fading.dita"/></relcell>
+      <relcell><topicref href="tasks/t-stay-connected.dita"/><topicref href="tasks/t-chat.dita"/></relcell>
+      <relcell><topicref href="reference/r-message-status.dita"/></relcell>
+    </relrow>
+    <relrow>
+      <relcell/>
+      <relcell collection-type="family">
+        <topicref href="tasks/t-recovery-words.dita"/>
+        <topicref href="tasks/t-restore-profile.dita"/>
+        <topicref href="tasks/t-delete-profile.dita"/>
+      </relcell>
+      <relcell/>
+    </relrow>
+  </reltable>
+</bookmap>

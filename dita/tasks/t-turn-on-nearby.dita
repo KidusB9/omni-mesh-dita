@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-turn-on-nearby">
+  <title>Turn on Nearby</title>
+  <shortdesc>Nearby uses Bluetooth and your iPhone's local network to find people close by. You turn
+    it on once, the first time you open the <uicontrol>Nearby</uicontrol> tab.</shortdesc>
+  <taskbody>
+    <context>Each explanation screen ends with <uicontrol>Continue</uicontrol>, and the iPhone
+      permission prompt appears right after it.</context>
+    <steps>
+      <step>
+        <cmd>Open the <uicontrol>Nearby</uicontrol> tab.</cmd>
+        <stepresult>The <wintitle>Turn on Nearby</wintitle> sheet explains what phones around you can
+          see. For the details, see <xref href="../concepts/c-what-others-see.dita"/>.</stepresult>
+      </step>
+      <step>
+        <cmd>Tap <uicontrol>Turn on Nearby</uicontrol>.</cmd>
+        <info>To decide later, tap <uicontrol>Not now</uicontrol>.</info>
+      </step>
+      <step>
+        <cmd>On <wintitle>OMNI uses Bluetooth</wintitle>, tap <uicontrol>Continue</uicontrol>, then
+          allow Bluetooth in the iPhone prompt.</cmd>
+        <info>If you say no, you won't see anyone and nobody will see you.</info>
+      </step>
+      <step>
+        <cmd>On <wintitle>One more question from your iPhone</wintitle>, tap
+          <uicontrol>Continue</uicontrol>, then allow <keyword keyref="product"/> to find devices on
+          your local network.</cmd>
+      </step>
+      <step importance="optional">
+        <cmd>When <wintitle>Hear when someone says hi</wintitle> appears, tap
+          <uicontrol>Continue</uicontrol> and allow notifications.</cmd>
+        <info>This appears the first time someone shows up on Nearby, or before your first hi. While
+          the app is open, it plays a sound and shows a banner when someone says hi.</info>
+      </step>
+    </steps>
+    <result>The top of <wintitle>Nearby</wintitle> shows <msgph>Looking for people nearby…</msgph>,
+      then the number of people here. People appear when they're within about 30 metres with
+      <keyword keyref="product"/> open.</result>
+    <postreq>Nearby has no off switch once it's on. To stop new people from seeing you, turn on
+      <uicontrol>Hide me</uicontrol>. See <xref href="t-privacy-controls.dita"/>.</postreq>
+  </taskbody>
+</task>

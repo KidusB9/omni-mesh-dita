@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-restore-profile">
+  <title>Bring back your profile on a new phone</title>
+  <shortdesc>Your 12 recovery words bring your profile to a new phone.</shortdesc>
+  <taskbody>
+    <prereq>You need your recovery words. See <xref href="t-recovery-words.dita"/>.</prereq>
+    <steps>
+      <step>
+        <cmd>Open <keyword keyref="product"/> and tap <uicontrol>I already have a
+          profile</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>On <wintitle>Bring back your profile</wintitle>, type your 12 recovery words in
+          order.</cmd>
+        <info>The counter shows how many words you've entered, for example <msgph>7 of 12
+          words</msgph>.</info>
+      </step>
+      <step>
+        <cmd>Tap <uicontrol>Bring it back</uicontrol>.</cmd>
+      </step>
+    </steps>
+    <result>Your profile comes back. If you see <msgph>Welcome back</msgph>, tap <uicontrol>Fill in my
+      profile</uicontrol> to finish setting it up.</result>
+    <postreq>
+      <note>Posts, chats, and matches stay on your old phone. They don't come back.</note>
+    </postreq>
+  </taskbody>
+</task>

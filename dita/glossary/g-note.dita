@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="g-note">
+  <glossterm>Note</glossterm>
+  <glossdef>A message left at a real place for a match or connection, which opens only when they get there.</glossdef>
+</glossentry>

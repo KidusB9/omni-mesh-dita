@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.dita-ot.org/rng/project.rnc" type="application/relax-ng-compact-syntax"?>
+<!--
+  One source map, two filtered editions, three deliverables.
+  List them with "dita deliverables project.xml"; scripts/build.ps1 publishes
+  each one in strict processing mode. Output paths are relative to the base
+  output folder, which build.ps1 sets to out/.
+-->
+<project xmlns="https://www.dita-ot.org/project">
+
+  <context id="user" name="User edition">
+    <input href="dita/omni-mesh-user-guide.ditamap"/>
+    <profile>
+      <ditaval href="filters/user.ditaval"/>
+    </profile>
+  </context>
+
+  <context id="technical" name="Technical edition">
+    <input href="dita/omni-mesh-user-guide.ditamap"/>
+    <profile>
+      <ditaval href="filters/technical.ditaval"/>
+    </profile>
+  </context>
+
+  <deliverable id="site" name="HTML5 help site (user edition)">
+    <context idref="user"/>
+    <output href="site"/>
+    <publication transtype="omni-html5"/>
+  </deliverable>
+
+  <deliverable id="pdf-user" name="PDF (user edition)">
+    <context idref="user"/>
+    <output href="pdf"/>
+    <publication transtype="omni-pdf">
+      <param name="outputFile.base" value="OMNI-MESH-User-Guide"/>
+    </publication>
+  </deliverable>
+
+  <deliverable id="pdf-technical" name="PDF (technical edition)">
+    <context idref="technical"/>
+    <output href="pdf"/>
+    <publication transtype="omni-pdf">
+      <param name="outputFile.base" value="OMNI-MESH-Technical-Edition"/>
+    </publication>
+  </deliverable>
+
+</project>

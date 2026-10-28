@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="about-this-guide">
+  <title>About this guide</title>
+  <shortdesc>This guide explains how to set up <keyword keyref="product"/>, meet people nearby, and stay
+    in control of what you share. It covers version <keyword keyref="version"/> on iPhone.</shortdesc>
+  <conbody>
+    <p>The app is listed on the App Store as <keyword keyref="store-name"/> and appears on your Home
+      Screen as <keyword keyref="product"/>. Get it from <xref keyref="app-store"/>.</p>
+    <section id="editions">
+      <title>Editions</title>
+      <p>This guide is written once in DITA XML and published in two editions from the same source.</p>
+      <ul>
+        <li><b>User edition.</b> Everything you need to use the app.</li>
+        <li><b>Technical edition.</b> The user edition plus a chapter on how phones connect, how
+          identity and encryption work, and the limits the app enforces.</li>
+      </ul>
+      <p audience="user">You are reading the user edition.</p>
+      <p audience="technical">You are reading the technical edition.</p>
+    </section>
+    <section id="conventions">
+      <title>Conventions</title>
+      <dl>
+        <dlentry>
+          <dt><uicontrol>Bold</uicontrol></dt>
+          <dd>A button, tab, field, or option you tap, such as <uicontrol>Say hi</uicontrol>.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Screen titles</dt>
+          <dd>The title at the top of a screen or sheet, such as <wintitle>Nearby</wintitle>.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Messages</dt>
+          <dd>Text the app shows you, such as <msgph>Looking for people nearby…</msgph>
+            A word in italics, such as <varname>name</varname>, is filled in by the app.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Paths</dt>
+          <dd><menucascade><uicontrol>Settings</uicontrol><uicontrol>Help</uicontrol></menucascade>
+            means tap each item in order.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </conbody>
+</concept>

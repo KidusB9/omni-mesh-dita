@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- English strings used by the custom header, footer, and cover templates. -->
+<variables>
+  <variable id="omni-footer-page">Page <param ref-name="pagenum"/></variable>
+  <variable id="omni-cover-version">Version <param ref-name="version"/></variable>
+  <variable id="omni-cover-revised">Revised <param ref-name="date"/></variable>
+</variables>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-privacy-controls">
+  <title>Control who can see you</title>
+  <shortdesc>Hide from new people, limit who can say hi, and choose what your card shows before you
+    match.</shortdesc>
+  <taskbody>
+    <steps>
+      <step conkeyref="reuse/open-settings">
+        <cmd/>
+      </step>
+      <step>
+        <cmd>Under <uicontrol>Nearby</uicontrol>, change the options you want.</cmd>
+        <choicetable relcolwidth="1* 2*">
+          <chhead>
+            <choptionhd>Option</choptionhd>
+            <chdeschd>What it does</chdeschd>
+          </chhead>
+          <chrow>
+            <choption><uicontrol>Hide me</uicontrol></choption>
+            <chdesc>Nobody new can see you, and you won't see anyone new.</chdesc>
+          </chrow>
+          <chrow>
+            <choption><uicontrol>Who can say hi</uicontrol></choption>
+            <chdesc><uicontrol>Everyone nearby</uicontrol>, <uicontrol>People with 2 or more shared
+              interests</uicontrol>, or <uicontrol>Nobody</uicontrol>. You can still say hi to
+              anyone.</chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+      <step>
+        <cmd>Under <uicontrol>Account</uicontrol>, tap <uicontrol>Edit profile</uicontrol> and change
+          what your card shows.</cmd>
+        <choicetable relcolwidth="1* 2*">
+          <chhead>
+            <choptionhd>Option</choptionhd>
+            <chdeschd>What it does</chdeschd>
+          </chhead>
+          <chrow>
+            <choption><uicontrol>Show my age</uicontrol></choption>
+            <chdesc>Turn it off to show an age range, such as 25 to 34, instead of your age.</chdesc>
+          </chrow>
+          <chrow>
+            <choption><uicontrol>Who can see your photo</uicontrol></choption>
+            <chdesc>Choose <uicontrol>After we match</uicontrol> to keep your photo from people you
+              haven't matched with.</chdesc>
+          </chrow>
+        </choicetable>
+        <info>You can also change your photo, first name, line, and interests here. Your date of birth
+          can't be changed.</info>
+      </step>
+    </steps>
+    <postreq>For what other phones can see at each stage, see
+      <xref href="../concepts/c-what-others-see.dita"/>.</postreq>
+  </taskbody>
+</task>

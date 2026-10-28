@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-fading">
+  <title>How matches fade</title>
+  <shortdesc>Everything you share with a match is temporary unless you both choose to keep each
+    other.</shortdesc>
+  <conbody>
+    <p>When you and a match part, a 30-minute countdown starts. If you're together again before it
+      ends, nothing is lost. If it runs out, the match ends.</p>
+    <p>Parting means your phones lose contact. <keyword keyref="product"/> can't run in the
+      background, so closing the app or locking your phone also counts as parting. When you open the
+      app again, the 30 minutes are counted from when you last saw each other.</p>
+    <section id="what-fades">
+      <title>What is deleted when a match ends</title>
+      <p>On both phones:</p>
+      <ul>
+        <li>The whole chat, in both directions.</li>
+        <li>Their stories, posts, and photo.</li>
+        <li>Notes left for a match you didn't stay connected with.</li>
+      </ul>
+      <note type="caution">Screenshots can't be taken back. Share only what you're comfortable with
+        someone keeping.</note>
+    </section>
+    <section id="where">
+      <title>Where you see the countdown</title>
+      <simpletable relcolwidth="1* 2*">
+        <sthead>
+          <stentry>Where</stentry>
+          <stentry>What it says</stentry>
+        </sthead>
+        <strow>
+          <stentry><wintitle>Match</wintitle> screen</stentry>
+          <stentry><msgph>Visible while you're together</msgph>, or when you're apart,
+            <msgph><varname>name</varname> is out of range. You can still see each other until
+            <varname>time</varname>, unless you both tap Stay connected.</msgph></stentry>
+        </strow>
+        <strow>
+          <stentry><uicontrol>Chats</uicontrol> tab</stentry>
+          <stentry><msgph>Matched, here now</msgph> or <msgph>Matched, until
+            <varname>time</varname></msgph></stentry>
+        </strow>
+        <strow>
+          <stentry>A chat</stentry>
+          <stentry><msgph>This chat stays open until <varname>time</varname>, unless you both tap
+            Stay connected.</msgph> After it ends: <msgph>This chat ended when you
+            parted</msgph></stentry>
+        </strow>
+      </simpletable>
+      <p>To keep a match, see <xref href="../tasks/t-stay-connected.dita"/>.</p>
+    </section>
+  </conbody>
+</concept>

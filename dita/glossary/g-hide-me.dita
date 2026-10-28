@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="g-hide-me">
+  <glossterm>Hide me</glossterm>
+  <glossdef>The setting that stops new people from seeing you and stops you from seeing anyone new.</glossdef>
+</glossentry>

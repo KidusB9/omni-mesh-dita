@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-say-hi">
+  <title>Say hi and match</title>
+  <shortdesc>You match with someone when you both say hi. Until then, neither of you can
+    chat.</shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>On the <uicontrol>Nearby</uicontrol> tab, tap <uicontrol>Say hi</uicontrol> on the
+          person's card.</cmd>
+        <stepresult>The <msgph>Say hi to <varname>name</varname></msgph> sheet shows the
+          interests you both like.</stepresult>
+      </step>
+      <step importance="optional">
+        <cmd>Add a short note.</cmd>
+        <info>Up to 120 characters.</info>
+      </step>
+      <step>
+        <cmd>Tap <uicontrol>Send hi</uicontrol>.</cmd>
+        <stepresult>The button on their card changes to <msgph>Hi sent</msgph>, and they get a
+          notification: <msgph><varname>name</varname> says hi</msgph>.</stepresult>
+      </step>
+    </steps>
+    <result>
+      <p>If they tap <uicontrol>Say hi back</uicontrol>, you match. You both get <msgph>You matched
+        with <varname>name</varname></msgph>, and the <wintitle>Match</wintitle> screen opens by
+        itself. If they tap <uicontrol>Not now</uicontrol>, you aren't told.</p>
+    </result>
+    <tasktroubleshooting>
+      <p>A hi expires after 15 minutes. If they don't answer in time, you see <msgph>Couldn't reach
+        <varname>name</varname> right now</msgph>. You can say hi to the same person once a day, to
+        up to 10 people an hour, and to up to 30 people a day.</p>
+    </tasktroubleshooting>
+    <example>
+      <title>When someone says hi to you</title>
+      <p>A sheet shows <msgph><varname>name</varname> says hi</msgph> and their note. Tap
+        <uicontrol>Say hi back</uicontrol> to match, or <uicontrol>Not now</uicontrol> to pass; they
+        won't be told, and a hi from them is ignored for 7 days. The same sheet has
+        <uicontrol>Report</uicontrol> and <uicontrol>Block</uicontrol>.</p>
+    </example>
+  </taskbody>
+</task>

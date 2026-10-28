@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-chat">
+  <title>Chat with a match</title>
+  <shortdesc>After you match, you can send text messages. They arrive right away while you're
+    together, or the next time you're close with <keyword keyref="product"/> open on both
+    phones.</shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>On the <wintitle>Match</wintitle> screen, tap <uicontrol>Chat</uicontrol>.</cmd>
+        <info>You can also open the <uicontrol>Chats</uicontrol> tab and tap the
+          conversation.</info>
+      </step>
+      <step>
+        <cmd>Type your message in <uicontrol>Write a message…</uicontrol> and tap
+          <uicontrol>Send</uicontrol>.</cmd>
+        <info>Messages are text only, up to 1,000 characters.</info>
+      </step>
+    </steps>
+    <result>
+      <p>The top of the chat shows whether messages arrive now:</p>
+      <ul>
+        <li><msgph>Nearby now. Messages arrive right away.</msgph></li>
+        <li><msgph>Connecting…</msgph></li>
+        <li><msgph>Not nearby. Messages arrive when you're together again with OMNI open on both
+          phones.</msgph></li>
+      </ul>
+      <p>For what each message status means, see <xref href="../reference/r-message-status.dita"/>.</p>
+    </result>
+    <postreq><ph conkeyref="reuse/fade-rule"/> See <xref href="../concepts/c-fading.dita"/>.</postreq>
+  </taskbody>
+</task>

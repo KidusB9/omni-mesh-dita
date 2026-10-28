@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-stay-connected">
+  <title>Stay connected with a match</title>
+  <shortdesc>A match fades 30 minutes after you part. If you both tap
+    <uicontrol>Stay connected</uicontrol>, you keep each other.</shortdesc>
+  <taskbody>
+    <steps>
+      <step conkeyref="reuse/open-match">
+        <cmd/>
+      </step>
+      <step>
+        <cmd>Tap <uicontrol>Stay connected</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>On <msgph>Stay connected with <varname>name</varname>?</msgph>, tap
+          <uicontrol>Stay connected</uicontrol>.</cmd>
+        <stepresult>Your button reads <msgph>Waiting for <varname>name</varname></msgph>. They get one
+          notification: <msgph><varname>name</varname> would like to stay connected</msgph>.</stepresult>
+      </step>
+    </steps>
+    <result>When you have both tapped it, you see <msgph>You and <varname>name</varname> are
+      connected</msgph> and their card shows <msgph>Connected</msgph>. You keep each other's profile,
+      chat, stories, and posts.</result>
+    <postreq>
+      <p>A request waits up to 7 days. If they don't tap it too, nothing changes.</p>
+      <p>To end a connection, open the <wintitle>Match</wintitle> screen, tap the
+        <uicontrol>…</uicontrol> menu, then tap <uicontrol>Remove connection</uicontrol>. They won't
+        be told.</p>
+    </postreq>
+  </taskbody>
+</task>

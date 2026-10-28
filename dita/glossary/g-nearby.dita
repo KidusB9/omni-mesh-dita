@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="g-nearby">
+  <glossterm>Nearby</glossterm>
+  <glossdef>The tab that lists the people around you who have the app open, and the feature that finds them over Bluetooth and your iPhone's local network.</glossdef>
+</glossentry>

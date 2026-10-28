@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r-nearby-messages">
+  <title>Nearby status messages</title>
+  <shortdesc>What each message on the <uicontrol>Nearby</uicontrol> tab means and what to do about
+    it.</shortdesc>
+  <refbody>
+    <table frame="all" id="nearby-messages">
+      <title>Nearby messages</title>
+      <tgroup cols="3">
+        <colspec colname="msg" colwidth="2*"/>
+        <colspec colname="means" colwidth="2*"/>
+        <colspec colname="do" colwidth="2*"/>
+        <thead>
+          <row>
+            <entry>Message</entry>
+            <entry>What it means</entry>
+            <entry>What to do</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><msgph>Nearby is off</msgph></entry>
+            <entry>Nearby was never turned on.</entry>
+            <entry>Tap <uicontrol>Turn on Nearby</uicontrol>.</entry>
+          </row>
+          <row>
+            <entry><msgph>Bluetooth is off for OMNI</msgph></entry>
+            <entry>The app isn't allowed to use Bluetooth, so you can't see anyone and nobody can see
+              you.</entry>
+            <entry>Tap <uicontrol>Continue</uicontrol> or <uicontrol>Open Settings</uicontrol> and
+              allow Bluetooth.</entry>
+          </row>
+          <row>
+            <entry><msgph>Nearby isn't running right now</msgph></entry>
+            <entry>Searching has stopped.</entry>
+            <entry>Check that Bluetooth and Wi-Fi are on, then tap <uicontrol>Look
+              again</uicontrol>.</entry>
+          </row>
+          <row>
+            <entry><msgph>You're hidden</msgph></entry>
+            <entry><uicontrol>Hide me</uicontrol> is on, so nobody new can see you.</entry>
+            <entry>Tap <uicontrol>Show me again</uicontrol>.</entry>
+          </row>
+          <row>
+            <entry><msgph>Nearby can't start on this phone</msgph></entry>
+            <entry>Something on this phone is blocking Nearby.</entry>
+            <entry>Tap <uicontrol>Check connection</uicontrol>, or <uicontrol>Send a
+              report</uicontrol>.</entry>
+          </row>
+          <row>
+            <entry><msgph>Keep OMNI open</msgph></entry>
+            <entry>Nobody has been found for 90 seconds.</entry>
+            <entry>Keep the app open on both phones and stay within about 30 metres.</entry>
+          </row>
+          <row>
+            <entry><msgph>Someone with an older version</msgph></entry>
+            <entry>That person runs an older version of the app.</entry>
+            <entry>They need to update before you can say hi.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </refbody>
+</reference>

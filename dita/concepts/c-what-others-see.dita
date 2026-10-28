@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-what-others-see">
+  <title>Privacy and safety</title>
+  <shortdesc><keyword keyref="product"/> shares your profile in stages. Knowing what each stage shares
+    helps you choose what your card shows.</shortdesc>
+  <conbody>
+    <fig id="fig-layers">
+      <title>What other phones see at each stage</title>
+      <image href="../images/sharing-layers.svg" width="170mm" placement="break">
+        <alt>Three stages. Broadcast: age band, some interests, and a rotating ID. Connected: name,
+          age, line, interests, photo, newest public post and story. Matched: chat, calls, notes,
+          stories and posts.</alt>
+      </image>
+    </fig>
+    <section id="broadcast">
+      <title>Before any connection</title>
+      <p>While <uicontrol>Nearby</uicontrol> is on, your phone sends out a small signal that phones
+        near you or on the same Wi-Fi can read, even if they don't have <keyword keyref="product"/>.
+        It holds only your age band, some of your interests, and a random ID that changes every 15
+        minutes. It never holds your name or photo.</p>
+      <p audience="technical">The signal is a Multipeer Connectivity advertisement of at most 24
+        bytes: the rotating ID, the age band, three flags (open to a hi, photo available, and a relay
+        flag that is always off), and a subset of interests. With one or two interests, all are
+        included; otherwise 60% rounded up, at most six, reshuffled each time the ID changes. The ID
+        does not rotate while a connection is open. See <xref href="c-architecture.dita"/>.</p>
+    </section>
+    <section id="connected">
+      <title>When phones connect</title>
+      <p><keyword keyref="product"/> phones close by connect on their own, before either of you taps
+        <uicontrol>Say hi</uicontrol>. Once connected, they can see:</p>
+      <ul>
+        <li>Your first name and your age, or your age band if you turn off
+          <uicontrol>Show my age</uicontrol>.</li>
+        <li>Your one line about yourself and all your interests.</li>
+        <li>Your photo, when <uicontrol>Who can see your photo</uicontrol> is set to
+          <uicontrol>Everyone nearby</uicontrol>. This is the default.</li>
+        <li>Your newest post and story shared with everyone nearby.</li>
+      </ul>
+      <p>Your date of birth never leaves your phone.</p>
+      <note type="important">To share less before you match, turn off <uicontrol>Show my age</uicontrol>
+        and set <uicontrol>Who can see your photo</uicontrol> to <uicontrol>After we match</uicontrol>.
+        See <xref href="../tasks/t-privacy-controls.dita"/>.</note>
+    </section>
+    <section id="matched">
+      <title>After you match</title>
+      <p>When you both say hi, you can chat, call, and leave notes, and you see each other's stories
+        and posts. <ph conkeyref="reuse/fade-rule"/></p>
+      <note conkeyref="reuse/no-server"/>
+    </section>
+  </conbody>
+</concept>

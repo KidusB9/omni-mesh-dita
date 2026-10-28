@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-leave-note">
+  <title>Leave a note at a place</title>
+  <shortdesc>Leave a message at a real spot for someone you matched with. They can open it only when
+    they get there.</shortdesc>
+  <taskbody>
+    <prereq>
+      <ul>
+        <li>You can leave a note only for someone you're matched or connected with.</li>
+        <li>Allow <keyword keyref="product"/> to use your location while you use the app. It uses
+          your location only to place notes and to find notes left for you.</li>
+      </ul>
+    </prereq>
+    <steps>
+      <step>
+        <cmd>Tap <uicontrol>Leave a note</uicontrol> on the <uicontrol>Notes</uicontrol> tab or on the
+          <wintitle>Match</wintitle> screen.</cmd>
+      </step>
+      <step>
+        <cmd>Under <uicontrol>For</uicontrol>, choose who the note is for.</cmd>
+      </step>
+      <step>
+        <cmd>In <uicontrol>Where is it? A short hint</uicontrol>, describe the spot.</cmd>
+        <info>Up to 40 characters, for example <userinput>the lobby bar</userinput>.</info>
+      </step>
+      <step>
+        <cmd>In <uicontrol>Your message</uicontrol>, write the note.</cmd>
+        <info>Up to 500 characters.</info>
+      </step>
+      <step>
+        <cmd>Under <uicontrol>How close they need to be</uicontrol>, choose a distance.</cmd>
+        <choicetable relcolwidth="1* 2*">
+          <chhead>
+            <choptionhd>Option</choptionhd>
+            <chdeschd>Description in the app</chdeschd>
+          </chhead>
+          <chrow>
+            <choption><uicontrol>Right here</uicontrol></choption>
+            <chdesc>About one building (30 m)</chdesc>
+          </chrow>
+          <chrow>
+            <choption><uicontrol>Close by</uicontrol></choption>
+            <chdesc>About a city block (50 m)</chdesc>
+          </chrow>
+          <chrow>
+            <choption><uicontrol>Around here</uicontrol></choption>
+            <chdesc>About a small park (100 m)</chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+      <step>
+        <cmd>Under <uicontrol>How long it stays</uicontrol>, choose <uicontrol>1 day</uicontrol>,
+          <uicontrol>3 days</uicontrol>, or <uicontrol>7 days</uicontrol>.</cmd>
+        <info>For a match you haven't stayed connected with, this is a maximum: the note disappears
+          when the match fades.</info>
+      </step>
+      <step importance="optional">
+        <cmd>Turn on <uicontrol>Only when I'm there too</uicontrol>.</cmd>
+        <info>Available for connections only.</info>
+      </step>
+      <step>
+        <cmd>Tap <uicontrol>Leave note</uicontrol>.</cmd>
+        <info>If your location reading is rough, the button reads <uicontrol>Leave it
+          anyway</uicontrol>.</info>
+      </step>
+    </steps>
+    <result>They get a notification: <msgph><varname>name</varname> left you something</msgph>, with
+      your hint.</result>
+  </taskbody>
+</task>

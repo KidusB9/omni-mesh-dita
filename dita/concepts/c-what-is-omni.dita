@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-what-is-omni">
+  <title>Getting started</title>
+  <shortdesc><keyword keyref="product"/> shows you the people around you who share your interests and
+    lets you match, chat, call, and leave notes, all phone to phone, with no internet, no signal, and
+    no account.</shortdesc>
+  <conbody>
+    <p>There is no phone number, email address, or password. Your profile lives on your phone, and
+      everything you share travels directly between phones that are close together.</p>
+    <section id="requirements">
+      <title>What you need</title>
+      <ul>
+        <li>An iPhone running <keyword keyref="min-ios"/> or later. iPad isn't supported.</li>
+        <li>Bluetooth and Wi-Fi turned on. You don't need a Wi-Fi network or mobile data.</li>
+        <li>To be 18 or over.</li>
+      </ul>
+      <note conkeyref="reuse/both-open"/>
+    </section>
+    <section id="how-it-works">
+      <title>How it works</title>
+      <ol>
+        <li>Turn on <uicontrol>Nearby</uicontrol> to see the people around you who have
+          <keyword keyref="product"/> open.</li>
+        <li>Say hi to someone. If they say hi back, you match.</li>
+        <li>Chat, call, or leave a note at a place for them to find.</li>
+        <li><ph conkeyref="reuse/fade-rule"/></li>
+      </ol>
+    </section>
+  </conbody>
+</concept>

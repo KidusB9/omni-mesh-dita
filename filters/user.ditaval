@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- User edition: everything except content written for a technical audience. -->
+<val>
+  <prop att="audience" val="technical" action="exclude"/>
+</val>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.dita-ot.org/rng/plugin.rnc" type="application/relax-ng-compact-syntax"?>
+<!--
+  OMNI MESH branded PDF.
+  Extends the stock PDF2 plugin with a customization directory (cfg/) that
+  overrides XSL-FO attribute sets, the front cover, and the running header and
+  footer. Publish with: dita -i <map> -f omni-pdf
+-->
+<plugin id="com.kidusberhanu.omni.pdf" version="1.0.0">
+  <require plugin="org.dita.pdf2"/>
+  <transtype name="omni-pdf" extends="pdf" desc="OMNI MESH branded PDF (US Letter)"/>
+  <feature extension="dita.transtype.print" value="omni-pdf"/>
+  <feature extension="ant.import" file="integrator.xml"/>
+</plugin>

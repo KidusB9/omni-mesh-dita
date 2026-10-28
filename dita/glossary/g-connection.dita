@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="g-connection">
+  <glossterm>Connection</glossterm>
+  <glossdef>A match that both people chose to keep by tapping Stay connected. A connection doesn't fade.</glossdef>
+</glossentry>

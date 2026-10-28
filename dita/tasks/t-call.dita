@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-call">
+  <title>Call a match</title>
+  <shortdesc>You can call a match by voice for 24 hours after you match, while your phones are close
+    together with <keyword keyref="product"/> open on both.</shortdesc>
+  <taskbody>
+    <prereq>The first time you call or answer, allow the microphone. <keyword keyref="product"/> uses
+      it only while you are on a call; nothing is recorded or saved.</prereq>
+    <steps>
+      <step conkeyref="reuse/open-match">
+        <cmd/>
+      </step>
+      <step>
+        <cmd>Tap <uicontrol>Call</uicontrol>.</cmd>
+        <info>The <uicontrol>Call</uicontrol> button appears only when a call can start right
+          now.</info>
+        <stepresult>If they don't answer within 45 seconds, you see <msgph><varname>name</varname>
+          didn't answer</msgph>.</stepresult>
+      </step>
+      <step>
+        <cmd>During the call, use <uicontrol>Mute</uicontrol>, <uicontrol>Speaker</uicontrol>, or
+          <uicontrol>End</uicontrol>.</cmd>
+      </step>
+    </steps>
+    <result>When someone calls you, tap <uicontrol>Accept</uicontrol> or
+      <uicontrol>Decline</uicontrol>.</result>
+    <postreq>The <wintitle>Match</wintitle> screen shows <msgph>You can call for
+      <varname>N</varname> more hours</msgph>. Tap <uicontrol>Extend</uicontrol> to reset it to 24
+      hours from now. If the match ends, calls end with it.</postreq>
+  </taskbody>
+</task>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-architecture" audience="technical">
+  <title>How it works</title>
+  <shortdesc><keyword keyref="product"/> <keyword keyref="version"/> connects iPhones directly to
+    each other with Apple's Multipeer Connectivity framework. There is no server and no relaying
+    through other phones.</shortdesc>
+  <conbody>
+    <section id="transport">
+      <title>Transport</title>
+      <p>Multipeer Connectivity carries all traffic over Bluetooth and peer-to-peer Wi-Fi, using the
+        service type <codeph>omni-mesh</codeph> (Bonjour names <codeph>_omni-mesh._tcp</codeph> and
+        <codeph>_omni-mesh._udp</codeph>). Sessions require Apple's built-in link encryption.</p>
+      <p>The app declares no background modes, so discovery and connections run only while the app is
+        in the foreground on both phones.</p>
+    </section>
+    <section id="layers">
+      <title>Discovery and connection</title>
+      <ol>
+        <li><b>Advertise.</b> Each phone advertises at most 24 bytes: a random ID that rotates every 15
+          minutes (never while a connection is open), the age band, three flags, and a subset of
+          interests.</li>
+        <li><b>Connect.</b> Phones running <keyword keyref="product"/> connect automatically, with no
+          tap from either person.</li>
+        <li><b>Exchange cards.</b> Connected phones swap signed profile cards: first name, line, age
+          and age band, all interests, scrambled codes for custom interests, and the user ID and public key. The
+          photo and the newest public post and story follow when the owner's settings allow it.</li>
+        <li><b>Match.</b> A match exists when both people have said hi. Matches then fetch each
+          other's stories and posts from the author, up to 30 posts and 10 stories.</li>
+      </ol>
+    </section>
+    <section id="topology">
+      <title>Topology and capacity</title>
+      <ul>
+        <li>Messages go only directly between the two phones involved. Version
+          <keyword keyref="version"/> never relays through a third phone; a message waiting for its
+          recipient is held for up to 30 days.</li>
+        <li>An iPhone holds up to 7 Multipeer connections at once. People beyond that limit appear as
+          <msgph>Someone nearby</msgph> until their profile arrives.</li>
+        <li>With more than 50 phones nearby, each new connection is attempted only 5% of the
+          time.</li>
+        <li>People you haven't matched with are forgotten 30 minutes after they were last seen.</li>
+      </ul>
+    </section>
+  </conbody>
+</concept>

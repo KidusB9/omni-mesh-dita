@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-recovery-words">
+  <title>Save your recovery words</title>
+  <shortdesc>Your 12 recovery words are the only way to bring your profile back on a new phone. Save
+    them somewhere safe.</shortdesc>
+  <taskbody>
+    <context>The words are created when you finish setup. After your first match, a <msgph>Keep your
+      profile safe</msgph> card on the <uicontrol>Me</uicontrol> tab reminds you to save them; its
+      <uicontrol>See my words</uicontrol> button opens the same screen as these steps.</context>
+    <steps>
+      <step conkeyref="reuse/open-settings">
+        <cmd/>
+      </step>
+      <step>
+        <cmd>Tap <uicontrol>Recovery words</uicontrol>, then <uicontrol>Show my words</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>Write the words down in order, or tap <uicontrol>Copy</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>Tap <uicontrol>I've saved them</uicontrol>.</cmd>
+      </step>
+    </steps>
+    <postreq>
+      <note type="important">Anyone with these words can be you on <keyword keyref="product"/>. Never
+        share them, not even with us.</note>
+    </postreq>
+  </taskbody>
+</task>

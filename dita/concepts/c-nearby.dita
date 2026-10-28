@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-nearby">
+  <title>Meeting people nearby</title>
+  <shortdesc>The <uicontrol>Nearby</uicontrol> tab lists the people around you who have
+    <keyword keyref="product"/> open, with the people you have the most in common with at the
+    top.</shortdesc>
+  <conbody>
+    <section id="status">
+      <title>The status line</title>
+      <p>The top of <wintitle>Nearby</wintitle> tells you what the app is doing.</p>
+      <simpletable relcolwidth="2* 3*">
+        <sthead>
+          <stentry>Message</stentry>
+          <stentry>What it means</stentry>
+        </sthead>
+        <strow>
+          <stentry><msgph><varname>N</varname> people here</msgph></stentry>
+          <stentry>How many people with <keyword keyref="product"/> open your phone can see.</stentry>
+        </strow>
+        <strow>
+          <stentry><msgph>Looking for people nearby…</msgph></stentry>
+          <stentry>Your phone is searching.</stentry>
+        </strow>
+        <strow>
+          <stentry><msgph>Nobody here yet.</msgph></stentry>
+          <stentry>No one is in range. People appear when they're within about 30 metres with
+            <keyword keyref="product"/> open.</stentry>
+        </strow>
+        <strow>
+          <stentry><msgph>Keep OMNI open.</msgph></stentry>
+          <stentry>Shown after 90 seconds with nobody found. Phones only find each other while the
+            app is open on both of them.</stentry>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="cards">
+      <title>What a card shows</title>
+      <p>Each person appears as a card with:</p>
+      <ul>
+        <li>Their first name and age.</li>
+        <li>A status chip: <msgph>You said hi</msgph>, <msgph>Said hi to you</msgph>,
+          <msgph>Matched</msgph>, or <msgph>Connected</msgph>.</li>
+        <li>How many interests you share, plus a match percentage when it's 20% or more.</li>
+        <li>Up to three of your shared interests by name.</li>
+        <li>How close they are, in words only. You never see a distance or a map.</li>
+      </ul>
+      <simpletable relcolwidth="1* 3*">
+        <sthead>
+          <stentry>Label</stentry>
+          <stentry>Meaning</stentry>
+        </sthead>
+        <strow>
+          <stentry><msgph>Right here</msgph></stentry>
+          <stentry>Your phones are connected right now.</stentry>
+        </strow>
+        <strow>
+          <stentry><msgph>Close by</msgph></stentry>
+          <stentry>Seen in the last minute.</stentry>
+        </strow>
+        <strow>
+          <stentry><msgph>Around</msgph></stentry>
+          <stentry>Seen recently, but not in the last minute.</stentry>
+        </strow>
+      </simpletable>
+      <p>A card that reads <msgph>Someone nearby</msgph> with <msgph>Getting their profile…</msgph> is
+        a person your phone found whose profile hasn't arrived yet. A card that reads <msgph>Someone
+        with an older version</msgph> belongs to a person who needs to update
+        <keyword keyref="product"/> before you can say hi.</p>
+    </section>
+    <section id="order">
+      <title>Who appears first</title>
+      <p>People with the most shared interests come first, then the closest, then the most recently
+        seen. People you haven't matched with drop off the list 30 minutes after they were last
+        seen.</p>
+    </section>
+  </conbody>
+</concept>

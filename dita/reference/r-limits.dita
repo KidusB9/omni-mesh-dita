@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r-limits" audience="technical">
+  <title>Limits and timers</title>
+  <shortdesc>The limits and timers <keyword keyref="product"/> <keyword keyref="version"/> enforces,
+    taken from the app's source.</shortdesc>
+  <refbody>
+    <table frame="all" id="limits">
+      <title>Content limits</title>
+      <tgroup cols="2">
+        <colspec colname="item" colwidth="2*"/>
+        <colspec colname="limit" colwidth="3*"/>
+        <thead>
+          <row><entry>Item</entry><entry>Limit</entry></row>
+        </thead>
+        <tbody>
+          <row><entry>First name</entry><entry>1 to 40 characters</entry></row>
+          <row><entry>One line about you</entry><entry>120 characters</entry></row>
+          <row><entry>Interests</entry><entry>3 to 10 from a list of 250, plus up to 5 of your own
+            (30 characters each)</entry></row>
+          <row><entry>Note with a hi</entry><entry>120 characters on screen (140 in the
+            protocol)</entry></row>
+          <row><entry>Chat message</entry><entry>1,000 characters, text only</entry></row>
+          <row><entry>Post</entry><entry>500 characters and up to 4 photos</entry></row>
+          <row><entry>Full-size picture</entry><entry>8 MB</entry></row>
+          <row><entry>Single frame on the link</entry><entry>256 KB</entry></row>
+          <row><entry>Note at a place</entry><entry>Hint 40 characters, message 500 characters,
+            radius 30, 50, or 100 m</entry></row>
+          <row><entry>Content fetched after a match</entry><entry>Up to 30 posts and 10
+            stories</entry></row>
+          <row><entry>Simultaneous connections</entry><entry>7 per iPhone</entry></row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table frame="all" id="timers">
+      <title>Timers</title>
+      <tgroup cols="2">
+        <colspec colname="item" colwidth="2*"/>
+        <colspec colname="limit" colwidth="3*"/>
+        <thead>
+          <row><entry>Timer</entry><entry>Value</entry></row>
+        </thead>
+        <tbody>
+          <row><entry>Broadcast ID rotation</entry><entry>15 minutes, paused while connected</entry></row>
+          <row><entry>Unanswered hi expires</entry><entry>15 minutes</entry></row>
+          <row><entry>Hi after <uicontrol>Not now</uicontrol> ignored for</entry><entry>7 days</entry></row>
+          <row><entry>Hi rate limits</entry><entry>1 per person per day, 10 per hour, 30 per
+            day</entry></row>
+          <row><entry>Match fades after parting</entry><entry>30 minutes</entry></row>
+          <row><entry>Stranger forgotten after last seen</entry><entry>30 minutes</entry></row>
+          <row><entry>Stay-connected request waits</entry><entry>7 days</entry></row>
+          <row><entry>Undelivered message kept</entry><entry>30 days</entry></row>
+          <row><entry>Call window after a match</entry><entry>24 hours, extendable</entry></row>
+          <row><entry>Unanswered call</entry><entry>45 seconds</entry></row>
+          <row><entry>Story lifetime</entry><entry>24 hours</entry></row>
+          <row><entry>Note lifetime</entry><entry>1, 3, or 7 days; an opened note is kept 30
+            days</entry></row>
+        </tbody>
+      </tgroup>
+    </table>
+    <section id="audio">
+      <title>Call audio</title>
+      <p>16 kHz mono, uncompressed, over the Multipeer Connectivity session.</p>
+    </section>
+  </refbody>
+</reference>

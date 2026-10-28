@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-set-up-profile">
+  <title>Set up your profile</title>
+  <shortdesc>Create the card people nearby see when they open your profile. Setup takes two screens,
+    asks for no permissions, and keeps everything on your phone.</shortdesc>
+  <taskbody>
+    <prereq>You must be 18 or over to use <keyword keyref="product"/>.</prereq>
+    <steps>
+      <step>
+        <cmd>Open <keyword keyref="product"/> and tap <uicontrol>Get started</uicontrol>.</cmd>
+        <info>Used <keyword keyref="product"/> on another phone? Tap <uicontrol>I already have a
+          profile</uicontrol> instead. See <xref href="t-restore-profile.dita"/>.</info>
+      </step>
+      <step>
+        <cmd>On <wintitle>About you</wintitle>, enter your <uicontrol>First name</uicontrol>.</cmd>
+        <info>Up to 40 characters.</info>
+      </step>
+      <step>
+        <cmd>Enter your <uicontrol>Date of birth</uicontrol> in the <uicontrol>Day</uicontrol>,
+          <uicontrol>Month</uicontrol>, and <uicontrol>Year</uicontrol> fields.</cmd>
+        <info>People see your age, never your birthday. You can't change your date of birth
+          later.</info>
+      </step>
+      <step importance="optional">
+        <cmd>Add a photo and <uicontrol>One line about you</uicontrol>.</cmd>
+        <info>Under <uicontrol>Photo (optional)</uicontrol>, choose <uicontrol>Take a
+          photo</uicontrol> or <uicontrol>Choose from library</uicontrol>. Your line can be up to 120 characters. People nearby who see your card
+          can see your photo; you can change who sees it later.</info>
+      </step>
+      <step>
+        <cmd>Tap <uicontrol>Continue</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>On <wintitle>What are you into?</wintitle>, pick 3 to 10 interests.</cmd>
+        <info>People nearby who share them show up first. Under <uicontrol>Add your own</uicontrol>
+          you can add up to 5 words of your own, 30 characters each. They only match someone who
+          typed the same words.</info>
+      </step>
+      <step>
+        <cmd>Tap <uicontrol>Done</uicontrol>.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p><keyword keyref="product"/> opens on the <uicontrol>Nearby</uicontrol> tab, and your
+        12 recovery words are created in the background.</p>
+      <note>A new profile starts with <uicontrol>Show my age</uicontrol> on, your photo visible to
+        <uicontrol>Everyone nearby</uicontrol>, and anyone able to say hi. To change these, see
+        <xref href="t-privacy-controls.dita"/>.</note>
+    </result>
+    <tasktroubleshooting>If you see <msgph>OMNI is for adults</msgph>, the date of birth you entered
+      is under 18, and <keyword keyref="product"/> can't be used on this phone.</tasktroubleshooting>
+  </taskbody>
+</task>

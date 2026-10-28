@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Passes omni.landing to the HTML5 cover (index.html) transform when it is set. -->
+<dummy xmlns:if="ant:if">
+  <param name="omni.landing" expression="${omni.landing}" if:set="omni.landing"/>
+</dummy>

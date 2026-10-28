@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r-permissions">
+  <title>Permissions</title>
+  <shortdesc>The app asks for each permission only when you first use the feature that needs it.
+    Setup asks for none.</shortdesc>
+  <refbody>
+    <table frame="all" id="permissions">
+      <title>iPhone permissions</title>
+      <tgroup cols="3">
+        <colspec colname="perm" colwidth="1*"/>
+        <colspec colname="why" colwidth="3*"/>
+        <colspec colname="when" colwidth="2*"/>
+        <thead>
+          <row>
+            <entry>Permission</entry>
+            <entry>What it's for, in the app's words</entry>
+            <entry>When it's asked</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Bluetooth</entry>
+            <entry>Bluetooth lets OMNI notice people in the same place as you who also have the app.
+              No internet needed.</entry>
+            <entry>When you turn on Nearby.</entry>
+          </row>
+          <row>
+            <entry>Local Network</entry>
+            <entry>This lets phones in the same place talk to each other directly, even with no Wi-Fi
+              or mobile data.</entry>
+            <entry>Right after Bluetooth.</entry>
+          </row>
+          <row>
+            <entry>Notifications</entry>
+            <entry>While OMNI is open, we'll play a sound and show a banner when someone says
+              hi.</entry>
+            <entry>The first time someone appears on Nearby, or before your first hi.</entry>
+          </row>
+          <row>
+            <entry>Location (while using the app)</entry>
+            <entry>Your location is used to leave a note at a place for someone you matched with,
+              and to find notes left for you when you get there.</entry>
+            <entry>When you leave a note, or open Notes with a note waiting.</entry>
+          </row>
+          <row>
+            <entry>Microphone</entry>
+            <entry>The microphone is used only during a voice call with someone you matched
+              with.</entry>
+            <entry>Your first call.</entry>
+          </row>
+          <row>
+            <entry>Camera</entry>
+            <entry>Take a photo for your profile, a story or a post, or scan a friend's code to add
+              them.</entry>
+            <entry>When you take a photo or scan a code.</entry>
+          </row>
+          <row>
+            <entry>Photos</entry>
+            <entry>Choose a photo for your profile, a story or a post.</entry>
+            <entry>When you choose from your library.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </refbody>
+</reference>

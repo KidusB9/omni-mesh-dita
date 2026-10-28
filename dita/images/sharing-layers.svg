@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="270" viewBox="0 0 640 270"
+     font-family="Helvetica, Arial, sans-serif">
+  <title>What other phones see at each stage</title>
+
+  <!-- Stage 1 -->
+  <rect x="4" y="4" width="190" height="262" rx="10" fill="#EDF5F4" stroke="#0B7A75" stroke-width="1.5"/>
+  <rect x="4" y="4" width="190" height="46" rx="10" fill="#0B7A75"/>
+  <rect x="4" y="36" width="190" height="14" fill="#0B7A75"/>
+  <text x="99" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1. Broadcast</text>
+  <text x="99" y="41" text-anchor="middle" font-size="10.5" fill="#FFFFFF">before any connection</text>
+  <text x="18" y="78" font-size="12" fill="#1B2333">• Age band</text>
+  <text x="18" y="100" font-size="12" fill="#1B2333">• Some of your interests</text>
+  <text x="18" y="122" font-size="12" fill="#1B2333">• A random ID that</text>
+  <text x="30" y="138" font-size="12" fill="#1B2333">changes every 15 min</text>
+  <text x="18" y="226" font-size="10.5" fill="#5B6475">Readable by phones nearby,</text>
+  <text x="18" y="242" font-size="10.5" fill="#5B6475">even without OMNI</text>
+
+  <!-- Arrow -->
+  <path d="M198 135 L218 135" stroke="#12284C" stroke-width="2"/>
+  <path d="M218 129 L226 135 L218 141 Z" fill="#12284C"/>
+
+  <!-- Stage 2 -->
+  <rect x="226" y="4" width="190" height="262" rx="10" fill="#FFFFFF" stroke="#12284C" stroke-width="1.5"/>
+  <rect x="226" y="4" width="190" height="46" rx="10" fill="#12284C"/>
+  <rect x="226" y="36" width="190" height="14" fill="#12284C"/>
+  <text x="321" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">2. Connected</text>
+  <text x="321" y="41" text-anchor="middle" font-size="10.5" fill="#FFFFFF">automatically, before any hi</text>
+  <text x="240" y="78" font-size="12" fill="#1B2333">• First name and age</text>
+  <text x="240" y="100" font-size="12" fill="#1B2333">• Your line</text>
+  <text x="240" y="122" font-size="12" fill="#1B2333">• All your interests</text>
+  <text x="240" y="144" font-size="12" fill="#1B2333">• Your photo (on by default)</text>
+  <text x="240" y="166" font-size="12" fill="#1B2333">• Newest public post</text>
+  <text x="252" y="182" font-size="12" fill="#1B2333">and story</text>
+  <text x="240" y="226" font-size="10.5" fill="#5B6475">OMNI phones close by,</text>
+  <text x="240" y="242" font-size="10.5" fill="#5B6475">with the app open</text>
+
+  <!-- Arrow -->
+  <path d="M420 135 L440 135" stroke="#12284C" stroke-width="2"/>
+  <path d="M440 129 L448 135 L440 141 Z" fill="#12284C"/>
+
+  <!-- Stage 3 -->
+  <rect x="448" y="4" width="188" height="262" rx="10" fill="#FFFFFF" stroke="#12284C" stroke-width="1.5"/>
+  <rect x="448" y="4" width="188" height="46" rx="10" fill="#12284C"/>
+  <rect x="448" y="36" width="188" height="14" fill="#12284C"/>
+  <text x="542" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">3. Matched</text>
+  <text x="542" y="41" text-anchor="middle" font-size="10.5" fill="#FFFFFF">you both said hi</text>
+  <text x="462" y="78" font-size="12" fill="#1B2333">• Chat</text>
+  <text x="462" y="100" font-size="12" fill="#1B2333">• Voice calls</text>
+  <text x="462" y="122" font-size="12" fill="#1B2333">• Notes left at places</text>
+  <text x="462" y="144" font-size="12" fill="#1B2333">• Their stories and posts</text>
+  <text x="462" y="226" font-size="10.5" fill="#5B6475">Fades 30 min after you part,</text>
+  <text x="462" y="242" font-size="10.5" fill="#5B6475">unless you stay connected</text>
+</svg>

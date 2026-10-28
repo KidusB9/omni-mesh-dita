@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-find-note">
+  <title>Find a note left for you</title>
+  <shortdesc><keyword keyref="product"/> guides you to a note with hot-and-cold hints. It never shows
+    a distance or a map.</shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Tap the <msgph><varname>name</varname> left you something</msgph> notification, or open
+          the <uicontrol>Notes</uicontrol> tab.</cmd>
+      </step>
+      <step>
+        <cmd>Head toward the place in the hint while the note updates.</cmd>
+        <info>It moves from <msgph>Far away</msgph> to <msgph>Getting closer</msgph> to <msgph>Very
+          close</msgph>.</info>
+      </step>
+      <step>
+        <cmd>When it says <msgph>You're here, tap to open</msgph>, tap the note.</cmd>
+      </step>
+    </steps>
+    <result>The note opens. An opened note is kept on this phone for 30 days.</result>
+    <tasktroubleshooting>If you see <msgph>Can't tell where you are right now. Step outside or stand
+      by a window.</msgph>, your phone doesn't have a good location reading yet.</tasktroubleshooting>
+  </taskbody>
+</task>

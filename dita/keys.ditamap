@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<!--
+  Key definitions. Topics say <keyword keyref="product"/> instead of typing the
+  name, so a rename or version bump is a one-line change here.
+-->
+<map id="keys">
+  <title>Key definitions</title>
+
+  <keydef keys="product">
+    <topicmeta><keywords><keyword>OMNI</keyword></keywords></topicmeta>
+  </keydef>
+  <keydef keys="store-name">
+    <topicmeta><keywords><keyword>OMNI MESH</keyword></keywords></topicmeta>
+  </keydef>
+  <keydef keys="version">
+    <topicmeta><keywords><keyword>2.0</keyword></keywords></topicmeta>
+  </keydef>
+  <keydef keys="min-ios">
+    <topicmeta><keywords><keyword>iOS 15.1</keyword></keywords></topicmeta>
+  </keydef>
+  <keydef keys="app-store" href="https://apps.apple.com/us/app/omni-mesh/id6761793813"
+          scope="external" format="html">
+    <topicmeta><linktext>OMNI MESH on the App Store</linktext></topicmeta>
+  </keydef>
+
+  <!-- Reuse library: referenced for conrefs, never published on its own -->
+  <keydef keys="reuse" href="common/reuse.dita" processing-role="resource-only"/>
+</map>

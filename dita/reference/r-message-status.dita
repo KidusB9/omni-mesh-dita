@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r-message-status">
+  <title>Message status</title>
+  <shortdesc>Each message in a chat shows where it is on its way to the other phone.</shortdesc>
+  <refbody>
+    <properties relcolwidth="2* 3*">
+      <prophead>
+        <proptypehd>Status</proptypehd>
+        <propdeschd>Meaning</propdeschd>
+      </prophead>
+      <property>
+        <proptype><msgph>Sending…</msgph></proptype>
+        <propdesc>On its way to a phone that is nearby now.</propdesc>
+      </property>
+      <property>
+        <proptype><msgph>Will send when you're together again</msgph></proptype>
+        <propdesc>Waiting until you're close again with the app open on both phones. A waiting
+          message is kept for up to 30 days.</propdesc>
+      </property>
+      <property>
+        <proptype><msgph>Delivered</msgph></proptype>
+        <propdesc>It reached their phone.</propdesc>
+      </property>
+      <property>
+        <proptype><msgph>Read</msgph></proptype>
+        <propdesc>They opened it.</propdesc>
+      </property>
+      <property>
+        <proptype><msgph>Not sent. Your match ended.</msgph></proptype>
+        <propdesc>The match faded before the message could be delivered.</propdesc>
+      </property>
+      <property>
+        <proptype><msgph>Not sent. You weren't together for 30 days.</msgph></proptype>
+        <propdesc>The message waited 30 days without your phones meeting.</propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>
